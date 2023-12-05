@@ -290,7 +290,7 @@ void blue_command()
 					USART2_RX_STA = 0;
 				}
 				
-//特殊按键处理
+//特殊按键处理，123
 				else if(strcmp((const char*)USART2_RX_BUF, "ON1")==0)
 				{
 						USART2_RX_STA = 0;
